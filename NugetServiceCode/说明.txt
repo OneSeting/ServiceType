@@ -1,0 +1,7 @@
+这个是自己搭建nuget服务的源码
+
+1.把服务跑起来了挂在服务器即可
+
+2.上传nuget包的方法
+  1.将包放在需要上传的文件夹 输入cmd 进入控制台
+  2.然后执行 命令如下：dotnet nuget push -s http://120.0.0.1:8020/v3/index.json newtonsoft.json.13.0.1.nupkg
